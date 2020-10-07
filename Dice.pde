@@ -67,7 +67,7 @@ class Die {
     if (number == 1) {
       ellipse(dieX, dieY, 23, 23);
       countOne = countOne + 1;
-      System.out.println(countOne);
+      //System.out.println(countOne);
     }
     if (number == 2) {
       ellipse(dieX + 20, dieY - 20, 23, 23);
